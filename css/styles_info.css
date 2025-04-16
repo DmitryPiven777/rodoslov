@@ -1,0 +1,70 @@
+/* Сброс/Reset */
+h1,h2,h3,h4,h5,h6,div,body,p,ul,ol,li{
+    padding: 0;
+    margin: 0
+}
+
+ul,ol{
+	list-style: none
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+	background-image: url(../images/funart.jpg);
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.fio {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.data {
+	text-align: center;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.photo_items {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.photo_items img{
+	border-radius: 15px;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.photo {
+	padding: 30px;
+}
+
+/* .photo img:hover {
+	width: 500px;
+	height: auto;
+} */
+
+.back {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.back a {
+	background: #dbd6d8e9;
+	color:#000000;
+	font-weight: 700;
+    padding: 15px 62px 15px 70px;
+	border-radius: 15px;
+	text-decoration: none;
+	letter-spacing: 3px;
+}
+
+.back a:hover {
+	color:#d0ad7a;
+}

@@ -1,0 +1,98 @@
+/* Сброс/Reset */
+h1,h2,h3,h4,h5,h6,div,body,p,ul,ol,li{
+    padding: 0;
+    margin: 0
+}
+
+ul,ol{
+	list-style: none
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+	background-image: url(../images/funart.jpg);
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.osnovateli_roda_main {
+	padding-bottom: 50px;
+}
+
+.or_slyders {
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+	background-image: url(../images/fon-zelen3.jpg);
+	width: 1200px;
+	border-radius: 30px;
+	margin: 0 auto;
+}
+
+.or_slyders2 {
+	display: flex;
+	justify-content: center;
+	padding: 50px 0;
+	background-image: url(../images/fon-fistash2.jpg);
+	width: 1000px;
+	border-radius: 30px;
+	margin: 50px auto;
+}
+
+.or_slyders3, .or_slyders4 {
+	display: flex;
+	justify-content: center;
+}
+
+.or1 {
+	padding: 0 150px;
+}
+
+.or2, .or3 {
+	padding: 0 20px;
+}
+
+.or1 img {
+	width: 280px;
+	height: 120px;
+	border-radius: 15px;
+}
+
+.or2 img, .or3 img {
+	width: 350px;
+	height: 150px;
+	border-radius: 15px;
+}
+
+.or4, .or5 {
+	padding: 20px 200px;
+}
+
+.or4 a {
+	background: #d2e542e9;
+	color:#000000;
+	font-weight: 600;
+    padding: 10px 32px 10px 40px;
+	border-radius: 15px;
+	text-decoration: none;
+	letter-spacing: 1px;
+} 
+
+.or5 a{
+	background: #dbd6d8e9;
+	color:#000000;
+	font-weight: 700;
+    padding: 10px 32px 10px 40px;
+	border-radius: 15px;
+	text-decoration: none;
+	letter-spacing: 3px;
+}
+
+.or1 a:hover, .or2 a:hover, .or3 a:hover, .or4 a:hover, .or5 a:hover, .or6 a:hover, .or7 a:hover, .or8 a:hover, .or9 a:hover {
+	color:#d0ad7a;
+}
+
+
